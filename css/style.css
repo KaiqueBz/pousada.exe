@@ -156,24 +156,70 @@ body{
     width: 100vw;
 }
 
-/*Quartos*/
-
-.quarto{
+/* Estilização seção Sobre */
+.secao-container{
     display: flex;
-    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
     height: 100vh;
-    width: 100vw;
+    gap: 6rem;
 }
 
-.titulo-quarto{
+.container-topo-card h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-topo-card p{
+    font-size: 1.2rem;
+}
+
+.container-topo-card{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-cards {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .card {
+    flex: 1 0 350px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+  
+  .container-card-descricao {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    padding:2rem;
-}
-
-.titulo-quarto h3{
-    font-size: 1.5rem;
-}
+    gap: 10px;
+  }
+  
+  .container-card-img {
+    width: 30%;
+    height: 100%;
+  }
+  
+  .container-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
