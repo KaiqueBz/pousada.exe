@@ -45,6 +45,11 @@ body{
     margin-right: 15px;
     color: black;
 }
+
+.topo a:hover{
+    color: red;
+}
+
 /* Conteudo Principal*/
 
 .container{
@@ -67,6 +72,7 @@ body{
     padding: 2% 4%;
     color: #ffffff;
     font-weight: bold;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
 }
 /*sobre*/
 
@@ -105,6 +111,13 @@ body{
    flex-direction: row;
    flex: 1 1 10rem;
    justify-content: center;  
+   align-items: center;
+   padding: 0.5rem;
+}
+
+.card-info:hover{
+    background-color: #949494;
+    margin-bottom: 1rem;
 }
 
 .imagens-quartos{
@@ -141,8 +154,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5vh;
-    padding: 2rem;
+    gap: 3vh;
+    padding: 1.5rem;
 }
 
 .rota-conteudo h3{
@@ -202,6 +215,11 @@ body{
     text-align: left;
     background-color: #f1f1f1;
   }
+
+  .card:hover{
+    background-color: #949494;
+    padding: 1rem;
+  }
   
   .container-card-descricao {
     width: 100%;
@@ -222,4 +240,51 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /*rodapé*/
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    background-color: rgb(15, 199, 199);
+    gap: 5rem;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+  }
+
+  .rodape{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .rodape h3{
+    margin-left:4rem;
+    font-size: 1rem;
+  }
+
+  .rodape-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 223, 223);
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    gap: 1rem;
+    width: 20rem;
+  }
+
+  .rodape-contato:hover{
+    background-color: #8a8585;
+  }
+  
+  footer h4{
+    margin-bottom: 1rem;
   }
