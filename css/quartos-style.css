@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/*topo da pagina*/
+.topo{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-topo{
+    display: flex;
+    justify-content:space-between;
+    width: 90vw;
+}
+
+.conteudo-topo p{
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.conteudo-topo span{
+    color: rgb(0, 153, 255);
+}
+
+.topo-links{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.topo a{
+    margin-right: 15px;
+    color: black;
+}
+
+.topo a:hover{
+    color: red;
+}
+
+/*imagem de fundo*/
+
+.img-fundo-topo{
+    background-image: url("/assets/img-fundo.jpg");
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-quarto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+.conteudo-quarto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+
+.apresentacao-quartos{
+    height: 100vh;
+   
+}
+
+.texto-apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.texto-apresentacao h2{
+    font-size: 2rem;
+}
+
+.imagem-apresentacao{
+    display: flex;
+   flex-direction: row;
+   flex: 1 1 10rem;
+   justify-content: center;  
+   align-items: center;
+   padding: 0.5rem;
+   
+}
+.imagem-apresentacao img:hover{
+    background-color: #b1abab;
+    padding: 1rem;
+  }
+
+.imagem-apresentacao img{
+    height: 14rem;
+    width: 22rem;
+    margin-left: 2rem;
+}
+
+.list-quarto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+
+.list-quarto p{
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.list-quarto ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.list-quarto ul li{
+    line-height: 1.8;
+    flex: 1 1 300px;
+}
+
+ /*rodapé*/
+
+ footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    background-color: rgb(15, 199, 199);
+    gap: 5rem;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+  }
+
+  .rodape{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .rodape h3{
+    margin-left:4rem;
+    font-size: 1rem;
+  }
+
+  .rodape-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 223, 223);
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    gap: 1rem;
+    width: 20rem;
+  }
+
+  .rodape-contato:hover{
+    background-color: #8a8585;
+  }
+  
+  footer h4{
+    margin-bottom: 1rem;
+  }
